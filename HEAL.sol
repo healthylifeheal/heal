@@ -23,7 +23,7 @@ contract HealthyLife is ERC20, Ownable {
 
     address public deadWallet = 0x000000000000000000000000000000000000dEaD;
 
-    address public immutable ADA = address(0x8330d16fdcD34b8d26aba566fFDb788dcAe902CC); 
+    address public immutable ADA = address(0x3EE2200Efb3400fAbB9AacF31297cBdD1d435D47); 
 
     uint256 public swapTokensAtAmount = 2000000000 * (10**18);
     uint256 public maxTxAmount = 1000000000000 * (10**18);
